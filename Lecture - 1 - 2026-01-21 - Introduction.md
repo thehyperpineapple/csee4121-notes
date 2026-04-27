@@ -74,6 +74,7 @@ $$
 ![[Pasted image 20260122224745.png]]
 ### Amdahl's Law:
 Speedup of a system is bounded by the fraction of time not enhanced. They are inversely proportional.
+
 In simple terms - Make the common case fast
 
 **Time Measurements:**

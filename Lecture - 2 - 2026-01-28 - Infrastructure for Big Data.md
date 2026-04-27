@@ -3,7 +3,7 @@
 - Ring - few cables
 - Mesh - lot of redundancy
 - Star - lot of centralization
-- <span style="background:#fff88f">Tree</span> - generally used in data centers (hybridization of tree)
+- Tree - generally used in data centers (hybridization of tree)
 - Hybrid - combination of multiple models
 
 Multipath routing:
@@ -206,7 +206,7 @@ Keys are most important
 Protocol Buffers (Protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for **serializing structured data**
 - API Schema definition language
 - Provides libraries for convenience
-- Comparable to JSON and XML
+- Comparable to JSON and XML but better
 - Binary on the wire
 - There is no schema (flexible)
 - Operational reality may not be beautiful but it centralizes complexity of consistency
