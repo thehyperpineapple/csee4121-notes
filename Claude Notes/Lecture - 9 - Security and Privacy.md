@@ -1,4 +1,3 @@
-# Lecture 9 — Security and Privacy
 
 ## 1. Recap
 

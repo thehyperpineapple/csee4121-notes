@@ -23,16 +23,16 @@
 
 ### Matching Examples (text: `fox foxtrot ox box`)
 
-| Pattern | Meaning |
-|---|---|
-| `fox` | matches `fox`, and `fox` inside `foxtrot` |
-| `ox` | matches `ox` everywhere it appears |
-| `fox\w` | `\w` = any word character (so requires a char after `fox`) |
-| `fox\w*` | `*` = zero or more of preceding char |
-| `fox\w+` | `+` = one or more of preceding char |
-| `[^f]ox` | `ox` not preceded by `f` |
-| `[^f\W]ox` | `ox` not preceded by `f` or non-word char |
-| `[bf]ox` | `b` or `f` followed by `ox` |
+| Pattern    | Meaning                                                    | Output |
+| ---------- | ---------------------------------------------------------- | ------ |
+| `fox`      | matches `fox`, and `fox` inside `foxtrot`                  |        |
+| `ox`       | matches `ox` everywhere it appears                         |        |
+| `fox\w`    | `\w` = any word character (so requires a char after `fox`) |        |
+| `fox\w*`   | `*` = zero or more of preceding char                       |        |
+| `fox\w+`   | `+` = one or more of preceding char                        |        |
+| `[^f]ox`   | `ox` not preceded by `f`                                   |        |
+| `[^f\W]ox` | `ox` not preceded by `f` or non-word char                  |        |
+| `[bf]ox`   | `b` or `f` followed by `ox`                                |        |
 
 - Debug tool: **regex101.com**.
 - Hint: useful in HW combined with a UDF.
@@ -241,8 +241,6 @@ tagCounts = hashtags.countByValueAndWindow(Minutes(10), Seconds(1))
 - **Encryption at rest** + **encryption in transit**.
 - **Data regionalization** — EU data in EU datacenters.
 - Major **cloud providers** offer built-in compliance controls.
-
----
 
 ## 6. Real-World Security & Compliance Tips
 
